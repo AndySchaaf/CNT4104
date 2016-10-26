@@ -1,0 +1,49 @@
+
+<div ng-controller = "dataCtrl">
+	<div class="side">		
+		<div id = "historical">
+			<p class="sidebar" style = "font-weight:bold">Historical Weather</p>		
+			<p class="sidebar">Start Date 
+				<input type="date" ng-model="start" style="float: right"/>
+			</p>
+			<hr style="width: 90%" />
+			<p class="sidebar">End Date 
+				<input type="date" ng-model="end" style="float: right" />
+			</p>
+			<hr style="width: 90%" />
+			<p class="sidebar" style="float: left;"> Data</p>
+			<p class="sidebar" style="float: right;"> 
+				<input id="tempBox" type="checkbox" ng-true-value= "true" ng-false-value="false" ng-model="b_temp"/> Temperature 
+				<input id="humBox" type="checkbox" ng-true-value= "true" ng-false-value="false" ng-model="b_hum"/> Humidity
+			</p>
+			<hr style="width: 90%" />
+			<p class="sidebar">
+			<input id="launchButton" type="button" ng-click="update()" class="launch" value="Start" style="float: right; width: 100px;"/>	
+			</p>
+			<br>
+			<p class="sidebar">
+			<input id="launchButton" type="button" ng-click="update()" class="launch" value="Today" style="float: right; width: 100px;"/>
+			
+			</p>	
+		</div>
+	</div>
+
+	<div class="main">
+		<highchart style= "height: 60%;" id="chart1" config="chart"></highchart>		
+		<div class="data" style="overflow:scroll">			
+			<table style="border-collapse: collapse;width:100%; font-family: arial;">		
+				<tr class="datarow" ng-repeat="w in weather|limitTo:1">
+					<th class="datapoint" ng-repeat="(key,val) in w">
+					{{key}}
+					</th>
+				</tr>
+				<tr class="datarow" ng-repeat="w in weather">			
+					<td align = "center" class="datapoint" ng-repeat="(key,val) in w">
+					{{val}}
+					</td>				
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+

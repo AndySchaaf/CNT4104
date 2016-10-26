@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CNT4104 Project</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script type="text/javascript" src="controller.js"></script>
+		<script type="text/javascript" src="all-data.json"></script>
+		<script type="text/javascript" src="partial-data.json"></script>
+		<script type="text/javascript" src="documents.json"></script>
+		<script type="text/javascript" src="highcharts-ng.js"></script>
+
+	</head>
+    <body ng-app="mainApp">
+        <div class="header">
+            <ul>
+                <li><a href="#/">CNT 4104</a></li>
+                <li class="hover"><a href="#/">Home</a></li>
+                <li class="hover"><a href="#doc">Documentation</a></li>
+            </ul>
+        </div>
+        <div ng-view></div>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+[
+  {
+    "ID": 1,
+    "Datetime": "2016-09-19T19:03:37",
+    "Temperature": 73,
+    "Humidity": 54
+  },
+  {
+    "ID": 2,
+    "Datetime": "2016-09-19T19:04:10",
+    "Temperature": 74,
+    "Humidity": 54
+  },
+  {
+    "ID": 3,
+    "Datetime": "2016-09-19T19:04:16",
+    "Temperature": 74,
+    "Humidity": 55
+  },
+  {
+    "ID": 4,
+    "Datetime": "2016-09-19T19:04:22",
+    "Temperature": 73,
+    "Humidity": 55
+  },
+  {
+    "ID": 5,
+    "Datetime": "2016-09-19T19:04:28",
+    "Temperature": 72,
+    "Humidity": 55
+  },
+  {
+    "ID": 6,
+    "Datetime": "2016-09-19T19:16:33",
+    "Temperature": 78,
+    "Humidity": 55
+  },
+  {
+    "ID": 7,
+    "Datetime": "2016-09-19T19:29:53",
+    "Temperature": 81,
+    "Humidity": 55
+  },
+  {
+    "ID": 8,
+    "Datetime": "2016-09-19T19:29:58",
+    "Temperature": 85,
+    "Humidity": 55
+  },
+  {
+    "ID": 9,
+    "Datetime": "2016-09-21T13:58:44",
+    "Temperature": 72,
+    "Humidity": 57
+  },
+  {
+    "ID": 10,
+    "Datetime": "2016-09-21T13:59:07",
+    "Temperature": 72,
+    "Humidity": 57
+  },
+  {
+    "ID": 11,
+    "Datetime": "2016-09-21T13:59:08",
+    "Temperature": 72,
+    "Humidity": 57
+  },
+  {
+    "ID": 12,
+    "Datetime": "2016-09-21T13:59:09",
+    "Temperature": 72,
+    "Humidity": 57
+  },
+  {
+    "ID": 13,
+    "Datetime": "2016-09-21T13:59:09",
+    "Temperature": 72,
+    "Humidity": 57
+  },
+  {
+    "ID": 14,
+    "Datetime": "2016-09-21T13:59:09",
+    "Temperature": 72,
+    "Humidity": 57
+  }
+]

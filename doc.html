@@ -1,0 +1,15 @@
+<div ng-controller="docCtrl" class="total">
+    <h2 style="font-family: arial; font-weight: 200">Documenation</h2>
+	
+	<table cellpadding="20" class="document">
+		<tr class="document" ng-repeat="doc in documents">
+			<td class="document">{{doc.date}}</td>
+			<td class="document">{{doc.name}}</td>
+			<td class="document">
+			<a href="{{doc.link}}" download>Download</a>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
